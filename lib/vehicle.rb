@@ -1,6 +1,6 @@
 class Vehicle
   
-  attr _accessor :wheel_size, :wheel_number
+  attr_accessor :wheel_size, :wheel_number
   
   def inistialize(wheel_size, wheel_number)
     @wheel_size = wheel_size
